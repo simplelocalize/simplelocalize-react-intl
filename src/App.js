@@ -13,6 +13,7 @@ function App() {
       {context => (<div className="App">
         <header className="App-header">
           <div>
+            <h1>SimpleLocalize.io ⚡️ FormatJS</h1>
             <p>
               <FormattedMessage id="USE_BUTTONS_BELOW"/>
             </p>
@@ -29,11 +30,11 @@ function App() {
 
           <a
             className="App-link"
-            href="https://simplelocalize.io"
+            href="https://github.com/simplelocalize/simplelocalize-react-intl"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FormattedMessage id="LEARN_MORE"/>
+            <FormattedMessage id="OPEN_GITHUB_REPOSITORY"/>
           </a>
         </header>
       </div>)}
