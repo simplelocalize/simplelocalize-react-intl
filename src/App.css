@@ -41,8 +41,19 @@ button {
   color: white;
 }
 
+.App-links {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.separator {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .App-link {
   color: #61dafb;
+  font-size: 1.2rem;
 }
 
 @keyframes heartbeat {

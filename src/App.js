@@ -28,14 +28,28 @@ function App() {
             <FormattedMessage id="DESCRIPTION"/>
           </p>
 
-          <a
+          <div className="App-links">
+            <a
             className="App-link"
             href="https://github.com/simplelocalize/simplelocalize-react-intl"
-            target="_blank"
-            rel="noopener noreferrer"
           >
-            <FormattedMessage id="OPEN_GITHUB_REPOSITORY"/>
+              Github Repository
           </a>
+<div className="separator">|
+</div>
+            <a
+              className="App-link"
+              href="https://simplelocalize.io/blog/posts/formatjs-reactjs-internationalization/"
+            >Read integration post</a>
+            <div className="separator">|
+            </div>
+            <a
+              className="App-link"
+              href="https://simplelocalize.io/docs/integrations/format-js/"
+            >
+              Read integration docs
+            </a></div>
+
         </header>
       </div>)}
     </LanguageContext.Consumer>
