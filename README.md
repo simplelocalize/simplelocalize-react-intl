@@ -1,3 +1,7 @@
+# Repository archived
+
+Please use [official FormatJS integration](https://simplelocalize.io/docs/integrations/format-js/)
+
 ## Demo
 [Checkout working demo with 3 languages](https://react-intl.simplelocalize.io)
 
