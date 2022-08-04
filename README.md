@@ -28,14 +28,21 @@ In the project directory, you can run:
 ### `npm run i18n:extract`
 to extract messages from source code to `lang/en.json` file.
 
+
+## Uploading translations
+
+Upload translations to SimpleLocalize using [SimpleLocalize CLI](https://simplelocalize.io/docs/cli/get-started/).
+Please provide a valid API Key in `simplelocalize.yml` configuration file before you start. [Get API Key](https://simplelocalize.io/)
+
+### `curl -s https://get.simplelocalize.io/2.0/install | bash`
+to install SimpleLocalize CLI.
+
 ### `npm run i18n:upload`
 to upload messages to the SimpleLocalize service.
 
 ### `npm run i18n:download`
 to download messages locally from the SimpleLocalize service. This is optional and it requires to change SimpleLocalize.tsx 
 to load translations from local files.
-
-> Please provide a valid API Key in `simplelocalize.yml` configuration file.
 
 ## Running application locally
 
