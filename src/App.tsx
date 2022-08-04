@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -15,7 +14,9 @@ function App() {
           <div>
             <h1>SimpleLocalize.io ⚡️ FormatJS</h1>
             <p>
-              <FormattedMessage id="USE_BUTTONS_BELOW"/>
+              <FormattedMessage id="USE_BUTTONS_BELOW"
+                                defaultMessage="Use buttons below"
+                                description="Here you can describe the translation key. This will be treated as 'code description'." />
             </p>
             <button onClick={() => context.changeLanguage("en")}>English</button>
             <button onClick={() => context.changeLanguage("es")}>Spanish</button>
@@ -30,13 +31,13 @@ function App() {
 
           <div className="App-links">
             <a
-            className="App-link"
-            href="https://github.com/simplelocalize/simplelocalize-react-intl"
-          >
+              className="App-link"
+              href="https://github.com/simplelocalize/simplelocalize-react-intl"
+            >
               Github Repository
-          </a>
-<div className="separator">|
-</div>
+            </a>
+            <div className="separator">|
+            </div>
             <a
               className="App-link"
               href="https://simplelocalize.io/blog/posts/formatjs-reactjs-internationalization/"
