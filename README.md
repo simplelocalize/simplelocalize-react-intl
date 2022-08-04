@@ -1,7 +1,6 @@
-## Demo
-[Live demo](https://react-intl.simplelocalize.io)
-
 ## Overview
+
+[See live demo](https://react-intl.simplelocalize.io).
 
 Sample application with 3 languages. The application is built with React 18, [react-intl](https://formatjs.io/docs). It uses React Context to keep translation messages
 and FormattedMessage components with **predefined message IDs.** 
