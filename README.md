@@ -29,7 +29,7 @@ In the project directory, you can run:
 to extract messages from source code to `lang/en.json` file.
 
 
-## Uploading translations
+## Managing translations
 
 Upload translations to SimpleLocalize using [SimpleLocalize CLI](https://simplelocalize.io/docs/cli/get-started/).
 Please provide a valid API Key in `simplelocalize.yml` configuration file before you start. [Get API Key](https://simplelocalize.io/)
