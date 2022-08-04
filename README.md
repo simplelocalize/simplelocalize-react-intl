@@ -3,7 +3,7 @@
 
 ## Overview
 
-Sample application with 3 languages. The application is built with React 18, react-intl. It uses React Context to keep translation messages
+Sample application with 3 languages. The application is built with React 18, [react-intl](https://formatjs.io/docs). It uses React Context to keep translation messages
 and FormattedMessage components with **predefined message IDs.** 
 
 ```tsx
@@ -56,8 +56,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-## Learn More
-
-- [Integration guide](https://simplelocalize.io/docs/integrations/format-js/)
-- [My blog post](https://simplelocalize.io/blog/posts/formatjs-reactjs-internationalization/)
-- [FormatJS docs](https://formatjs.io/docs)
