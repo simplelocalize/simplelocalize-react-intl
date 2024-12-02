@@ -2,12 +2,15 @@
 apiKey: YOUR_PROJECT_API_KEY
 
 # Upload command
-uploadPath: ./lang/en.json
-languageKey: en
 uploadFormat: simplelocalize-json
+uploadPath: ./lang/en.json
+uploadLanguageKey: en
+uploadOptions:
+  - REPLACE_TRANSLATION_IF_FOUND
 
 # Download command (used only to download translation files locally)
 downloadPath: ./lang/{lang}.json
+downloadLanguageKeys: ['pl', 'es']
 downloadFormat: single-language-json
 
 ## Learn more: https://simplelocalize.io/docs/cli/download-translations/
