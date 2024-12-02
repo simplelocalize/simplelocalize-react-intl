@@ -13,4 +13,4 @@ downloadPath: ./lang/{lang}.json
 downloadLanguageKeys: ['pl', 'es']
 downloadFormat: single-language-json
 
-## Learn more: https://simplelocalize.io/docs/cli/download-translations/
+## Learn more: https://simplelocalize.io/docs/cli/get-started/
