@@ -33,7 +33,7 @@ to extract messages from source code to `lang/en.json` file.
 Upload translations to SimpleLocalize using [SimpleLocalize CLI](https://simplelocalize.io/docs/cli/get-started/).
 Please provide a valid API Key in `simplelocalize.yml` configuration file before you start. [Get API Key](https://simplelocalize.io/)
 
-### `curl -s https://get.simplelocalize.io/2.0/install | bash`
+### `curl -s https://get.simplelocalize.io/2.7/install | bash`
 to install SimpleLocalize CLI.
 
 ### `npm run i18n:upload`
